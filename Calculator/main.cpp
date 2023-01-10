@@ -17,19 +17,3 @@ int main(int argc, char **argv)
     window.show();
     return app.exec();
 }
-
-
-
-//    QWidget windowMain;
-//    windowMain.setFixedSize(231, 293);
-//    windowMain.setGraphicsEffect(&p_blur);
-//    windowMain.setStyleSheet("background: red;");
-
-
-//    window.setGraphicsEffect(&p_blur);
-//    window.setStyleSheet("background: transparent;");
-//    window.setWindowFlags(Qt::FramelessWindowHint);
-//    window.setGraphicsEffect(&p_blur);
-//    window.setAttribute(Qt::WA_TranslucentBackground,true);
-
-//    QFont font ("Helvetica",24, QFont::Normal);
