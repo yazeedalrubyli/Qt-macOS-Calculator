@@ -3,6 +3,7 @@
 
 #include <QWidget>
 
+class QLabel;
 class QPushButton;
 class MainWindow : public QWidget
 {
@@ -13,6 +14,7 @@ public:
 signals:
 
 private:
+ QLabel *label;
  QPushButton *button0;
  QPushButton *button1;
  QPushButton *button2;
